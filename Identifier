@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+char a;
+printf("Enter the identifier\n");
+scanf("%c",&a);
+if(a>='a'&&a<='z'){
+    printf("-------------->It is an Identifier<-----------------\n");
+}
+else{
+    printf("--------------->It is not Identifier<-----------------\n");
+}
+return 0;
+}
+Footer
